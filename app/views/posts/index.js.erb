@@ -1,0 +1,10 @@
+$("#posts").html("\
+    <table> \
+        <tbody> \
+            <% @posts.each do |post| %> \
+                <tr> \
+                    <td> <%= post.title %></td> \
+                </tr> \
+            <% end %> \
+         </tbody> \
+    </table>");
